@@ -5,7 +5,7 @@
 
 ### 문제 풀이 파일 업로드
 - 각자가 푼 문제를 자신의 브랜치에 추가하여 커밋하고, 원격 레포지토리에 푸시합니다.
-- 파일 이름은 다음과 같은 형식을 따릅니다. 예: `pfct_13.py`, `pfct_22.py`
+- 파일 이름은 다음과 같은 형식을 따릅니다. 예: `pfct_13.py`, `pfct_22.py, 'boj_134.py`
 - pfct = python for coding test
 
 ### PR (Pull Request) 요청
