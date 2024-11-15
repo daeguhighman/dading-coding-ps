@@ -4,7 +4,7 @@ from datetime import datetime
 
 # GitHub 연결
 g = Github(os.environ['GITHUB_TOKEN'])
-repo = g.get_repo("yoondh1215/dading-coding-ps")
+repo = g.get_repo("daeguhighman/dading-coding-ps")
 
 # 목표 문제 수
 goals = {
