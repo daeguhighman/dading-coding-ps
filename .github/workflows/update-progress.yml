@@ -6,12 +6,17 @@ on:
   schedule:
     - cron: '0 0 * * *'  # 매일 자정에 실행
 
+permissions:
+  contents: write  # 저장소 쓰기 권한 추가
+
 jobs:
   update-progress:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      
+        with:
+          token: ${{ secrets.PAT }}  # PAT 사용
+        
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -26,7 +31,7 @@ jobs:
         run: |
           python .github/scripts/calculate_progress.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }}
           
       - name: Commit changes
         run: |
