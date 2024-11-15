@@ -12,6 +12,9 @@
 | 경륜 | 50% | 18문제 |
 | 윤서 | 40% | 14문제 |
 
+## 📊 Progress Tracking
+현재 진행 상황은 [여기](progress.md)에서 확인할 수 있습니다.
+
 ## 🚀 Getting Started
 
 ### 1. Repository Setup
@@ -139,4 +142,11 @@ git push  # 본인 브랜치에 푸시
 - **주간 미팅**: 챕터 발표 및 토론
 
 ## 🔍 추가 자료
+### 📚 교재 및 소스코드
+- [이것이 취업을 위한 코딩 테스트다 with Python (GitHub)](https://github.com/ndb796/python-for-coding-test)
 
+### 📺 강의 자료
+
+- [이것이 취업을 위한 코딩 테스트다 with Python ()](https://www.youtube.com/playlist?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
+
+- [바킹독의 실전 알고리즘(Youtube) ](https://youtube.com/playlist?list=PLtqbFd2VIQv4O6D6l9HcD732hdrnYb6CY&si=UKB2gLI3iXaL6bxl)
