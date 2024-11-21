@@ -21,7 +21,7 @@
 1단계: 브랜치 생성
 ```bash
 # 메인 저장소 클론
-git clone https://github.com/yoondh1215/dading-coding-ps.git
+git clone https://github.com/daeguhighman/dading-coding-ps.git
 cd dading-coding-ps
 
 # 본인의 이름으로 브랜치 생성
