@@ -24,14 +24,17 @@ progress_template = """# 📊 Progress Tracking
 |------|--------|-----------|
 {}
 
-## 📈 진행률 시각화
+## 📈 상세 진행률
 {}
 """
 
 # 진행률에 따른 막대 그래프
 def progress_bar(percentage):
+    if percentage >= 100:
+        return f"🌟 |{'🟩' * 10}| 100%"
     filled = int(percentage / 10)
-    return f"{'█' * filled}{'░' * (10 - filled)} {percentage:.1f}%"
+    remaining = 10 - filled
+    return f"🎯 |{'🟦' * filled}{'⬜' * remaining}| {percentage:.1f}%"
 
 # 각 사용자의 파일 수 계산
 progress_rows = []
@@ -48,7 +51,7 @@ for user, goal in goals.items():
     
     progress = (solved / goal) * 100
     progress_rows.append(f"| {user} | {progress:.1f}% | {solved}/{goal} |")
-    visualization_rows.append(f"{user}: {progress_bar(progress)}")
+    visualization_rows.append(f"👤 {user.ljust(4)} {progress_bar(progress)}")
 
 # 현재 시간
 now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
