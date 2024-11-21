@@ -1,7 +1,7 @@
 # 🎯 Dading Coding Problem Solving Study
 
 ## 📅 Study Period
-- 스터디 기간: 2023년 11월 17일 - 12월 19일 (35일)
+- 스터디 기간: 2024년 11월 17일 - 12월 19일 (35일)
 
 ## 👥 Members & Goals
 | 이름 | 목표 진행률 | 목표 문제 수 |
