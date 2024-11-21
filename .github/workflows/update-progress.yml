@@ -3,6 +3,8 @@ name: Update Progress
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'progress.md'  # progress.md 파일의 변경은 무시
   schedule:
     - cron: '0 0 * * *'  # 매일 자정에 실행
 
